@@ -1,0 +1,9 @@
+setxkbmap de &
+xinput set-prop 13 297 1 &
+wal -i  Pictures/wal/archlinux-deep-aurora.jpg &
+mmaker openbox -f -t konsole &
+tint2 &
+flameshot &
+nm-applet &
+alsa-tray &
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
