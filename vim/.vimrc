@@ -46,5 +46,5 @@ filetype plugin indent on    " required
 
 
 map <C-n> :NERDTreeToggle<CR>
-
+inoremap jk <Esc>
 syntax on
