@@ -52,8 +52,14 @@
                     <execute>pacman</execute>
                 </action> </item>
             </menu>
+            <item label="Lutris"> <action name="Execute">
+                <execute>lutris</execute>
+            </action> </item>
         </menu>
         <menu id="6" label="Graphics">
+            <item label="Bitmap"> <action name="Execute">
+                <execute>bitmap</execute>
+            </action> </item>
             <item label="dotty"> <action name="Execute">
                 <execute>dotty</execute>
             </action> </item>
@@ -143,6 +149,19 @@
                 <execute>exo-open --launch WebBrowser</execute>
             </action> </item>
         </menu>
+        <menu id="3" label="Office">
+            <item label="PostgreSQL Database"> <action name="Execute">
+                <execute>konsole -e psql template1</execute>
+            </action> </item>
+        </menu>
+        <menu id="4" label="Science">
+            <item label="bc"> <action name="Execute">
+                <execute>konsole -e bc</execute>
+            </action> </item>
+            <item label="dc"> <action name="Execute">
+                <execute>konsole -e dc</execute>
+            </action> </item>
+        </menu>
         <menu id="19" label="Shells">
             <item label="GIT"> <action name="Execute">
                 <execute>konsole -e git</execute>
@@ -197,6 +216,12 @@
                 <item label="File Manager"> <action name="Execute">
                     <execute>thunar-settings</execute>
                 </action> </item>
+                <item label="Firewall"> <action name="Execute">
+                    <execute>firewall-config</execute>
+                </action> </item>
+                <item label="Manage Printing"> <action name="Execute">
+                    <execute>xdg-open http://localhost:631/</execute>
+                </action> </item>
                 <item label="Openbox Configuration Manager"> <action name="Execute">
                     <execute>obconf</execute>
                 </action> </item>
@@ -239,6 +264,9 @@
             </action> </item>
             <item label="Top"> <action name="Execute">
                 <execute>konsole -e top</execute>
+            </action> </item>
+            <item label="Virtual Machine Manager"> <action name="Execute">
+                <execute>virt-manager</execute>
             </action> </item>
         </menu>
         <menu id="38" label="Utilities">
