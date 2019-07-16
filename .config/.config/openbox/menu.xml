@@ -69,6 +69,9 @@
             <item label="GNU Image Manipulation Program"> <action name="Execute">
                 <execute>gimp-2.10</execute>
             </action> </item>
+            <item label="Gpick"> <action name="Execute">
+                <execute>gpick</execute>
+            </action> </item>
             <item label="Krita KDE Bitmap Graphics Editor"> <action name="Execute">
                 <execute>krita</execute>
             </action> </item>
@@ -227,6 +230,9 @@
                 </action> </item>
                 <item label="Panel"> <action name="Execute">
                     <execute>xfce4-panel --preferences</execute>
+                </action> </item>
+                <item label="Power Manager"> <action name="Execute">
+                    <execute>xfce4-power-manager-settings</execute>
                 </action> </item>
                 <item label="Preferred Applications"> <action name="Execute">
                     <execute>exo-preferred-applications</execute>
