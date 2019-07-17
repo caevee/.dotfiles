@@ -7,7 +7,7 @@ alias pacR='sudo pacman -R'
 alias pacSyyu='sudo pacman -Syyu'
 alias :q='exit'
 alias mkpkglist='expac -HM '%-20n\t%10d' $(comm -23 <(pacman -Qqt | sort) <(pacman -Qqg base base-devel | sort)) > ~/Backups/Packagelists/packagelistdesc.txt && comm -23 <(pacman -Qqt | sort) <(pacman -Sqg base base-devel | sort) > ~/Backups/Packagelists/packagelist.txt && sh ~/Backups/renameandupload.sh'
-
+alias ySyu='yay -Syu'
 
 
 
