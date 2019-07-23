@@ -19,13 +19,13 @@ git clone https://github.com/addy-dclxvi/tint2-theme-collections
 Copy Lumiere from the gtk-theme-collection into your themes folder.
 
 ```
-mv ~/gtk-theme-collection/Lumiere /usr/share/themes/
+mv ~/gtk-theme-collections/Lumiere /usr/share/themes/
 ```
 
 Copy Clia from the openbox-theme-colleciton into your themes folder.
 
 ```
-mv ~/openbox-theme-collection/Clia /usr/share/themes/
+mv ~/openbox-theme-collections/Clia /usr/share/themes/
 ```
 Save the minima theme somewhere on your computer so you can later import it from tint2.
 

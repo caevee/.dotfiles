@@ -104,8 +104,17 @@
             <item label="SimpleScreenRecorder"> <action name="Execute">
                 <execute>simplescreenrecorder --logfile</execute>
             </action> </item>
+            <item label="Spotify"> <action name="Execute">
+                <execute>spotify</execute>
+            </action> </item>
+            <item label="Volume Icon"> <action name="Execute">
+                <execute>volumeicon</execute>
+            </action> </item>
         </menu>
         <menu id="5" label="Network">
+            <item label="AnyDesk"> <action name="Execute">
+                <execute>anydesk</execute>
+            </action> </item>
             <item label="Avahi SSH Server Browser"> <action name="Execute">
                 <execute>bssh</execute>
             </action> </item>
@@ -115,11 +124,20 @@
             <item label="Chromium"> <action name="Execute">
                 <execute>chromium</execute>
             </action> </item>
+            <item label="Discord"> <action name="Execute">
+                <execute>/opt/discord/Discord</execute>
+            </action> </item>
             <item label="FireFox"> <action name="Execute">
                 <execute>firefox</execute>
             </action> </item>
             <item label="FTP"> <action name="Execute">
                 <execute>konsole -e ftp</execute>
+            </action> </item>
+            <item label="HexChat"> <action name="Execute">
+                <execute>hexchat</execute>
+            </action> </item>
+            <item label="Lynx"> <action name="Execute">
+                <execute>konsole -e lynx</execute>
             </action> </item>
             <item label="Mail"> <action name="Execute">
                 <execute>konsole -e mail</execute>
@@ -284,6 +302,9 @@
             </action> </item>
             <item label="Info"> <action name="Execute">
                 <execute>konsole -e info</execute>
+            </action> </item>
+            <item label="Screenkey"> <action name="Execute">
+                <execute>screenkey</execute>
             </action> </item>
             <item label="Screenshot"> <action name="Execute">
                 <execute>xfce4-screenshooter</execute>
