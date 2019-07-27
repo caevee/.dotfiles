@@ -11,7 +11,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'gko/vim-coloresque'
-
+Plugin 'sjl/badwolf'
+Plugin 'sjl/gundo.vim'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " ultisnips "
 " Track the engine.
@@ -51,5 +55,17 @@ syntax on
 set number
 set autoindent
 set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
+set expandtab
 set ruler
 set rulerformat=%l,%v
+set cursorline
+set showmatch
+set incsearch
+set hlsearch
+nnoremap j gj
+nnoremap k gk
+colorscheme badwolf
+let mapleader=";"
+nnoremap <leader>g :GundoToggle<CR>
+nnoremap <leader><space> :nohlsearch<CR>
+nnoremap ; <nop>
