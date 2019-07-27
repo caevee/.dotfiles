@@ -178,6 +178,11 @@
     <keybind key="C-A-Left">
       <action name="GoToDesktop"/>
     </keybind>
+    <keybind key="Print">
+      <action name="Execute">
+        <command>flameshot gui</command>
+      </action>
+    </keybind>
     <keybind key="S-W-q">
       <action name="Close"/>
     </keybind>
