@@ -20,6 +20,9 @@
             <item label="Python (v2.7)"> <action name="Execute">
                 <execute>konsole -e python2.7</execute>
             </action> </item>
+            <item label="VSCodium"> <action name="Execute">
+                <execute>/usr/share/vscodium-bin/codium</execute>
+            </action> </item>
         </menu>
         <menu id="2" label="Editors">
             <item label="AA Fire"> <action name="Execute">
@@ -54,6 +57,9 @@
             </menu>
             <item label="Lutris"> <action name="Execute">
                 <execute>lutris</execute>
+            </action> </item>
+            <item label="RuneScape"> <action name="Execute">
+                <execute>runescape-launcher</execute>
             </action> </item>
         </menu>
         <menu id="6" label="Graphics">
