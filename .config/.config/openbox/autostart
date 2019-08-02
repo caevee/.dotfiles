@@ -1,6 +1,6 @@
 setxkbmap de &
 xinput set-prop 13 297 1 &
-wal -i  Pictures/wal/autumnanimegirl.jpg &
+wal -i  Pictures/wal/bluegrass.jpg &
 mmaker openbox -f -t konsole &
 tint2 &
 flameshot &
