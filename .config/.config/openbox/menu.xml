@@ -20,6 +20,9 @@
             <item label="Python (v2.7)"> <action name="Execute">
                 <execute>konsole -e python2.7</execute>
             </action> </item>
+            <item label="Scratch"> <action name="Execute">
+                <execute>scratch</execute>
+            </action> </item>
             <item label="VSCodium"> <action name="Execute">
                 <execute>/usr/share/vscodium-bin/codium</execute>
             </action> </item>
@@ -57,6 +60,9 @@
             </menu>
             <item label="Lutris"> <action name="Execute">
                 <execute>lutris</execute>
+            </action> </item>
+            <item label="Minecraft Launcher"> <action name="Execute">
+                <execute>minecraft-launcher</execute>
             </action> </item>
             <item label="RuneScape"> <action name="Execute">
                 <execute>runescape-launcher</execute>
@@ -150,6 +156,9 @@
             </action> </item>
             <item label="Mail Reader"> <action name="Execute">
                 <execute>exo-open --launch MailReader</execute>
+            </action> </item>
+            <item label="qBittorrent"> <action name="Execute">
+                <execute>qbittorrent</execute>
             </action> </item>
             <item label="Steam (Native)"> <action name="Execute">
                 <execute>steam-native</execute>
