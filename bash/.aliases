@@ -2,7 +2,7 @@ alias dlmp3='youtube-dl --output "%(title)s.%(ext)s" --extract-audio --audio-for
 alias ddflash='sudo dd bs=4M conv=fdatasync status=progress'
 alias pacS='sudo pacman -S'
 alias pacSyu='sudo pacman -Syu'
-alias pacSs='sudo pacman -Ss'
+alias pacSs='pacman -Ss'
 alias pacRs='sudo pacman -Rs'
 alias pacR='sudo pacman -R'
 alias pacSyyu='sudo pacman -Syyu'
