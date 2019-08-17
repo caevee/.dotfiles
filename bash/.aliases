@@ -16,3 +16,5 @@ alias gcmt='git commit -am'
 alias gcmt1='git commit -om'
 alias gpush='git push'
 alias defaultnetwork='sudo virsh net-start default'
+alias vnixconf='sudo vim /etc/nixos/configuration.nix'
+
