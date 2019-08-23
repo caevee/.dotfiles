@@ -166,9 +166,6 @@
             <item label="qBittorrent"> <action name="Execute">
                 <execute>qbittorrent</execute>
             </action> </item>
-            <item label="Steam (Native)"> <action name="Execute">
-                <execute>steam-native</execute>
-            </action> </item>
             <item label="Steam (Runtime)"> <action name="Execute">
                 <execute>steam-runtime</execute>
             </action> </item>
