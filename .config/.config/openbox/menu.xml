@@ -14,6 +14,9 @@
             <item label="IDLE (Python IDE)"> <action name="Execute">
                 <execute>idle</execute>
             </action> </item>
+            <item label="PyCharm Community Edition"> <action name="Execute">
+                <execute>pycharm</execute>
+            </action> </item>
             <item label="Python"> <action name="Execute">
                 <execute>konsole -e python</execute>
             </action> </item>
@@ -23,8 +26,8 @@
             <item label="Scratch"> <action name="Execute">
                 <execute>scratch</execute>
             </action> </item>
-            <item label="VSCodium"> <action name="Execute">
-                <execute>/usr/share/vscodium-bin/codium</execute>
+            <item label="Visual Studio Code"> <action name="Execute">
+                <execute>/opt/visual-studio-code/code</execute>
             </action> </item>
         </menu>
         <menu id="2" label="Editors">
@@ -112,6 +115,9 @@
             </action> </item>
             <item label="mpv Media Player"> <action name="Execute">
                 <execute>mpv</execute>
+            </action> </item>
+            <item label="OpenShot Video Editor"> <action name="Execute">
+                <execute>openshot-qt</execute>
             </action> </item>
             <item label="PulseAudio Volume Control"> <action name="Execute">
                 <execute>pavucontrol</execute>
@@ -263,6 +269,9 @@
         <menu id="37" label="System">
             <menu id="36" label="Settings">
                 <menu id="21" label="GNOME">
+                    <item label="Adobe Flash Player"> <action name="Execute">
+                        <execute>flash-player-properties</execute>
+                    </action> </item>
                     <item label="Advanced Network Configuration"> <action name="Execute">
                         <execute>nm-connection-editor</execute>
                     </action> </item>
@@ -310,6 +319,9 @@
             <item label="Bulk Rename"> <action name="Execute">
                 <execute>/usr/lib/Thunar/ThunarBulkRename</execute>
             </action> </item>
+            <item label="GParted"> <action name="Execute">
+                <execute>gparted</execute>
+            </action> </item>
             <item label="Htop"> <action name="Execute">
                 <execute>konsole -e htop</execute>
             </action> </item>
@@ -338,6 +350,9 @@
         <menu id="38" label="Utilities">
             <item label="About Xfce"> <action name="Execute">
                 <execute>xfce4-about</execute>
+            </action> </item>
+            <item label="Disks"> <action name="Execute">
+                <execute>gnome-disks</execute>
             </action> </item>
             <item label="File Manager"> <action name="Execute">
                 <execute>exo-open --launch FileManager</execute>
