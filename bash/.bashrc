@@ -1,15 +1,25 @@
-#
-# ~/.bashrc
-#
+# .bashrc
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
 
-alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
 
 #source .aliases
 [ -r ~/.aliases ] && source ~/.aliases
 
-export BROWSER=firefox
-export EDITOR=vim
+#wechall stuff
+export WECHALLUSER="caevee"
+export WECHALLTOKEN="F85B8-325D6-76F6A-19F26-17953-972B6"
